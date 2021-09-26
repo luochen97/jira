@@ -44,4 +44,23 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
 # jira
+
+**引入文件路径直接写绝对路径**
+需要在 tsconfig.json 文件中配置"baseUrl": "./src"
+**格式化配置**
+
+- 安装文件：npm install --save-dev --save-exact prettier
+- 生成配置文件： echo {}> .prettierrc.json
+- 创建文件：.prettierignore
+
+```
+# Ignore artifacts:
+build
+coverage
+```
+
+- 配置自动格式化
+  - 配置 pre-commit npx mrm@2 lint-staged
+  -
