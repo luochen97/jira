@@ -63,4 +63,7 @@ coverage
 
 - 配置自动格式化
   - 配置 pre-commit npx mrm@2 lint-staged
-  -
+  - 在 package.json 中的"lint-staged"中配置"\*.{js,css,md,ts,tsx}": "prettier --write"
+  - 执行 npm install eslint-config-prettier -D
+  - "eslintConfig"增加"prettier"
+- 规范化 commit
