@@ -50,11 +50,6 @@
     "lint-staged": "^11.1.2",
     "prettier": "2.4.1"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "lint-staged": {
     "*.{js,css,md,ts,tsx}": "prettier --write"
   }

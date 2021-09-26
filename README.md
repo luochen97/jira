@@ -67,3 +67,6 @@ coverage
   - 执行 npm install eslint-config-prettier -D
   - "eslintConfig"增加"prettier"
 - 规范化 commit
+  - npm install --save-dev @commitlint/{config-conventional,cli}
+  - echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
+  - npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
