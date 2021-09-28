@@ -70,3 +70,9 @@ coverage
   - npm install --save-dev @commitlint/{config-conventional,cli}
   - echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
   - npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
+- 增加本地数据 mock
+  - npm install json-server -D
+  - 本地配置数据 **project_mock**/db.json
+  - package.json scripts 新增配置 "mock": "json-server **project_mock**/db.json --watch -p 3030"
+  - npm run mock
+-
