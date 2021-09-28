@@ -75,4 +75,9 @@ coverage
   - 本地配置数据 **project_mock**/db.json
   - package.json scripts 新增配置 "mock": "json-server **project_mock**/db.json --watch -p 3030"
   - npm run mock
--
+- React 相关知识
+  - useState
+  - useEffect
+  - 组件间传值
+  - 环境配置
+  -
