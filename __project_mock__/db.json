@@ -1,0 +1,45 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name":"骑手"
+    },{
+      "id": "2",
+      "name":"牛晨"
+    },{
+      "id": "3",
+      "name":"刘超"
+    },{
+      "id": "4",
+      "name":"刘籽墨"
+    }
+  ],
+  "list": [
+    {
+      "id": "1",
+      "name": "骑手管理",
+      "personId": "1",
+      "organization": "外卖组",
+      "created": 1604989757139
+    },
+    {
+      "id": "2",
+      "name": "大海",
+      "personId": "2",
+      "organization": "牛晨",
+      "created": 1604989757139
+    },{
+      "id": "3",
+      "name": "沙滩",
+      "personId": "3",
+      "organization": "刘超",
+      "created": 1604989757139
+    },{
+      "id": "4",
+      "name": "尖沙咀",
+      "personId": "4",
+      "organization": "刘籽墨",
+      "created": 1604989757139
+    }
+  ]
+}
